@@ -32,7 +32,6 @@ pipeline {
    }
    stage('Test4') {
      steps {
-       sh chmod +x docker_run.sh
        sh "./docker_run.sh"
      }
    }

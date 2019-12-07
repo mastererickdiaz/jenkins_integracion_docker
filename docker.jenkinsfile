@@ -30,5 +30,11 @@ pipeline {
        sh 'ls -la /apps/'
      }
    }
+   stage('Test4') {
+     steps {
+       sh "./docker_run.sh"
+     }
+   }
+
  }
 }

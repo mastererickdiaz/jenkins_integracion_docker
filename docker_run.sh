@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir build/
 
 if [ $? != 0 ]; then

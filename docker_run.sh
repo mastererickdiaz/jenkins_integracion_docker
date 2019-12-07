@@ -1,4 +1,4 @@
-mkdir build/111
+mkdir build/
 
 if [ $? != 0 ]; then
   exit 1
